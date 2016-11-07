@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GestureUnlockView">
+        <attr name="guvLines" format="integer"/>
+        <attr name="guvColumns" format="integer"/>
+        <attr name="guvRadius" format="dimension"/>
+        <attr name="guvRadiusInside" format="dimension"/>
+        <attr name="guvCircleColor" format="color"/>
+        <attr name="guvCircleColorInside" format="color"/>
+        <attr name="guvCircleLineWidth" format="dimension"/>
+        <attr name="guvLineWidth" format="dimension"/>
+        <attr name="guvLineColor" format="color"/>
+        <attr name="guvText" format="string"/>
+        <attr name="guvTextSuccess" format="string"/>
+        <attr name="guvTextFailed" format="string"/>
+        <attr name="guvTextSize" format="dimension"/>
+        <attr name="guvTextColor" format="color"/>
+        <attr name="guvTextPadding" format="dimension"/>
+        <attr name="guvPadding" format="dimension"/>
+        <attr name="guvColorSuccess" format="color"/>
+        <attr name="guvColorFailed" format="color"/>
+    </declare-styleable>
+</resources>

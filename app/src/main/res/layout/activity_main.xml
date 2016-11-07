@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    tools:context="com.hzn.easygestureunlock.MainActivity"
+    >
+
+    <com.hzn.easygestureunlock.GestureUnlockView
+        android:id="@+id/lock_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:guvCircleColor="#9c9c9c"
+        app:guvCircleColorInside="#dadada"
+        app:guvCircleLineWidth="3dp"
+        app:guvColorFailed="#aac15656"
+        app:guvColorSuccess="#aa60b17a"
+        app:guvColumns="3"
+        app:guvLineColor="#aadadada"
+        app:guvLineWidth="20dp"
+        app:guvLines="3"
+        app:guvPadding="45dp"
+        app:guvRadius="25dp"
+        app:guvRadiusInside="10dp"
+        app:guvText="PLEASE UNLOCK"
+        app:guvTextColor="#dadada"
+        app:guvTextFailed="FAILED!"
+        app:guvTextPadding="85dp"
+        app:guvTextSize="20sp"
+        app:guvTextSuccess="SUCCESS!"
+        />
+</RelativeLayout>
